@@ -1,0 +1,25 @@
+{
+  "name": "marker-for-creators-docs",
+  "version": "1.0.0",
+  "description": "User documentation for Marker for Creators iOS app and Marker for Creators Companion",
+  "scripts": {
+    "docs": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichbinjona/marker-for-creators-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ichbinjona/marker-for-creators-docs/issues"
+  },
+  "homepage": "https://github.com/ichbinjona/marker-for-creators-docs#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
