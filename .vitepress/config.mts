@@ -13,12 +13,12 @@ export default defineConfig({
   },
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/MarkerForCreatorsAppLogo.png' }],
     ['meta', { name: 'theme-color', content: '#ff6b35' }],
   ],
 
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/MarkerForCreatorsAppLogo.png',
     siteTitle: 'Marker for Creators',
 
     // Top navigation
