@@ -28,6 +28,21 @@ Yes – Marker for Creators Companion is available for both Mac and Windows.
 ### Can I use the app without the Companion?
 Yes – the iOS app works standalone for note-taking and marker management. The Companion is only needed when you want to export markers into your NLE.
 
+### Does DaVinci Resolve Free work with Marker for Creators?
+
+Yes! Both DaVinci Resolve Studio and DaVinci Resolve Free work with Marker for Creators, with slightly different import workflows.
+
+**DaVinci Resolve Studio users** get a true one-click import. Simply press the Play button in the Companion app and your markers are imported into your project instantly.
+
+**DaVinci Resolve Free users** have a two-click import. Because DaVinci Resolve Free does not allow external scripts to run automatically, you need to trigger the import manually after pressing Play:
+
+1. Press the Play button in the Companion app.
+2. In DaVinci Resolve, go to **Workspace > Scripts > Allow Marker Companion Import**.
+
+Your markers will then be imported into your project.
+
+> For the smoothest experience, upgrade to DaVinci Resolve Studio and enjoy one-click import.
+
 ---
 
 ## Troubleshooting
