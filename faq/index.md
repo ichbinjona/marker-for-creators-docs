@@ -38,7 +38,7 @@ When you buy a car, you own it, but over time it becomes outdated. 20 years late
 
 If you always want to have the newest model, you have to lease a car.
 
-Software works in a similar way. Apps are not static products. They constantly evolve. New cameras come out, editing software changes, operating systems update, and workflows improve. Marker for Creators needs to keep evolving to stay useful.
+Software works in a similar way. Apps are not static products. They constantly evolve. New cameras come out, editing software changes, operating systems update, and workflows improve. The only, but huge difference to a car is: Marker for Creators needs to keep evolving to be work at all.
 
 If we sold the app once for a large upfront price, it might generate a lot of money quickly, but that would not support long-term development. We've seen many indie apps with one-time payments that stop being updated after a year or two. Eventually they break, fall behind, or disappear entirely.
 
