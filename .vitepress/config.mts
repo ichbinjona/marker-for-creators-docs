@@ -23,10 +23,10 @@ export default defineConfig({
 
     // Top navigation
     nav: [
-      { text: 'iOS App', link: '/ios-app/overview' },
-      { text: 'Companion', link: '/companion/overview' },
-      { text: 'FAQ', link: '/faq/' },
-      { text: 'Changelog', link: '/changelog/' },
+      { text: 'Workflow', link: '/workflow/' },
+      { text: 'Features', link: '/features/marker-types-and-presets' },
+      { text: 'Companion App', link: '/companion-app/' },
+      { text: 'Examples', link: '/example-workflows/' },
     ],
 
     // Sidebar
@@ -34,33 +34,55 @@ export default defineConfig({
       {
         text: 'Getting Started',
         items: [
-          { text: 'Introduction', link: '/' },
+          { text: 'Home', link: '/' },
+          { text: 'Quick Start', link: '/getting-started/quick-start' },
+          { text: 'Setup Guide', link: '/getting-started/setup' },
         ]
       },
       {
-        text: 'iOS App',
+        text: 'The Marker Workflow',
+        items: [
+          { text: 'Overview', link: '/workflow/' },
+          { text: 'Recording & Marking', link: '/workflow/recording-and-marking' },
+          { text: 'Importing Your Session', link: '/workflow/importing' },
+        ]
+      },
+      {
+        text: 'Features',
         collapsed: false,
         items: [
-          { text: 'Overview', link: '/ios-app/overview' },
+          { text: 'Marker Types & Presets', link: '/features/marker-types-and-presets' },
+          { text: 'Marker Notes', link: '/features/marker-notes' },
+          { text: 'Apple Watch', link: '/features/apple-watch' },
+          { text: 'Timelines & Clips', link: '/features/timelines-and-clips' },
+          { text: 'Camera Setup', link: '/features/camera-setup' },
+          { text: 'Session Management', link: '/features/session-management' },
+          { text: 'Advanced Settings', link: '/features/advanced-settings' },
         ]
       },
       {
-        text: 'Companion (Mac & PC)',
+        text: 'Companion App',
         collapsed: false,
         items: [
-          { text: 'Overview', link: '/companion/overview' },
+          { text: 'Overview', link: '/companion-app/' },
         ]
       },
       {
-        text: 'FAQ',
+        text: 'Example Workflows',
+        collapsed: false,
         items: [
-          { text: 'Frequently Asked Questions', link: '/faq/' },
+          { text: 'Overview', link: '/example-workflows/' },
+          { text: 'Video Podcast', link: '/example-workflows/video-podcast' },
+          { text: 'Sports Videography', link: '/example-workflows/sports-videography' },
+          { text: 'Event Highlights', link: '/example-workflows/event-highlights' },
+          { text: 'Documentary', link: '/example-workflows/documentary' },
+          { text: 'Conference', link: '/example-workflows/conference' },
         ]
       },
       {
-        text: 'Changelog',
+        text: 'Troubleshooting',
         items: [
-          { text: 'What\'s New', link: '/changelog/' },
+          { text: 'Common Issues', link: '/troubleshooting/' },
         ]
       },
     ],
