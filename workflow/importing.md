@@ -13,38 +13,29 @@ That's it. Your editing software opens with markers in place and timelines ready
 
 → [Learn more about the Companion App](/companion-app/)
 
-## What Happens Behind the Scenes
+## What Happens When You Press Play
 
 When you click Play, the Companion App:
 
-1. **Finds your footage** automatically by scanning your computer for video files that match your session's date and timecodes
-2. **Matches each clip** to the correct position using timecode metadata
+1. **Finds your footage** automatically on your computer
+2. **Matches each clip** to the correct position using timecodes
 3. **Builds your project** with the correct resolution, framerate, and timeline structure
-4. **Places your markers** directly onto the footage at the exact right positions
+4. **Places your markers** directly onto the footage
 5. **Opens your editing software** with everything ready
 
 ## Automatic Footage Matching
 
-The Companion App is smart about finding your footage:
-
-- It scans **custom footage folders** you've configured first (fastest)
-- It checks **previously used directories** - Companion learns where you keep your projects
-- On Mac, it uses **Spotlight** to search your entire system by date range and file type
-- It detects when **SD cards or external drives** are connected and scans them automatically
-
-Supported video formats include MP4, MOV, MXF, AVI, MKV, BRAW, MTS, M2TS, M4V, R3D, and more.
+The Companion App intelligently finds your footage on your computer. It learns your project structure over time and gets faster with every session. Just make sure your footage is on your computer or your external drives are connected.
 
 ### If Automatic Matching Doesn't Work
 
 If the Companion can't find your footage automatically:
 
-1. **Drag your footage folder** onto the sidebar (where the session list is)
+1. **Drag your footage folder** onto the sidebar
 2. Or use the **Select Folder** button in the matched footage section
 
-The Companion reads the timecode metadata from each video file using ffprobe and matches it to your session.
-
 ::: tip
-Make sure your **camera's date and time are set correctly**. The Companion uses the recording date to narrow down its search. If your camera clock is wrong, automatic matching may not find your files.
+Make sure your **camera's date and time are set correctly**. The Companion uses the recording date to find your footage. If your camera clock is wrong, automatic matching may not find your files.
 :::
 
 ## Manual Import via .marker Files
@@ -61,9 +52,9 @@ This is useful for collaboration - share a `.marker` file with your editor so th
 
 ### DaVinci Resolve
 
-**DaVinci Resolve Studio** users get true one-click import. Press Play and your project is created automatically via the Resolve Scripting API.
+**DaVinci Resolve Studio** users get true one-click import. Press Play and your project is created automatically.
 
-**DaVinci Resolve Free** requires one extra step: after pressing Play, go to **Workspace > Scripts > Allow Marker Companion Import** inside Resolve. This is due to a limitation in the free version that doesn't allow external scripts to run automatically.
+**DaVinci Resolve Free** requires one extra step: after pressing Play, go to **Workspace > Scripts > Allow Marker Companion Import** inside Resolve.
 
 You can choose between opening markers in a **new project** or importing into your **current project** in the Companion settings.
 
@@ -71,13 +62,13 @@ You can choose between opening markers in a **new project** or importing into yo
 
 ### Premiere Pro
 
-Press Play - your project file is generated and opened in Premiere Pro automatically. The Companion creates a standard XML or OTIO sequence with your markers and footage in place.
+Press Play and your project opens in Premiere Pro automatically with your footage on the timeline and markers at the correct positions.
 
 → [Premiere Pro details](/companion-app/#premiere-pro)
 
 ### Final Cut Pro
 
-Press Play - an FCPXML bundle is created and opened in Final Cut Pro. You can choose between markers displayed as **subtitles** (shown in the viewer) or **native FCP markers** on clips.
+Press Play and your project opens in Final Cut Pro. You can choose between markers displayed as **subtitles** (shown in the viewer) or **native FCP markers** on clips.
 
 Note that Final Cut Pro has limited marker color support. Marker uses four distinct purple-toned styles (Enchanted, Lavender, Midnights, Lilac) to differentiate your markers.
 

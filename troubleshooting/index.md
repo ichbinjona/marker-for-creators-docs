@@ -20,7 +20,7 @@ This is the most common issue. If your camera's time-of-day timecode is off by e
 
 **The Companion scans for video files by date range and timecode. If it can't find them:**
 
-1. **Are your files on this computer?** The Companion can only find files on connected drives. If footage is on an SD card, connect it first.
+1. **Make sure your files are accessible.** Your footage needs to be on your computer or on a connected external drive.
 2. **Is the camera date correct?** The Companion narrows its search by recording date. If your camera's date was wrong, the files won't match.
 3. **Try manual import:** Drag your footage folder directly onto the sidebar in the Companion App.
 4. **Add a custom footage folder:** In Settings, add the folder where you keep your projects. The Companion will always search there first.
@@ -60,7 +60,7 @@ If a session still doesn't appear, export it as a `.marker` file from the iPhone
 
 **Check these settings:**
 
-1. **Session type mismatch:** If your camera is set to Time of Day but you started a Rec Run session (or vice versa), timecodes won't align. You can change the session type after recording in the session detail view.
+1. **Session type mismatch:** If your camera is set to Time of Day but you started a Rec Run session (or vice versa), timecodes won't align. In the iPhone app, long-press the session in your Sessions list and change the session type. All timecodes are recalculated automatically.
 2. **Framerate mismatch:** If the display framerate in the app doesn't match your footage framerate, timecodes will drift. The Companion auto-detects the correct framerate from your footage.
 3. **Drop frame:** NTSC framerates (29.97, 59.94) can use drop frame or non-drop frame timecode. Make sure this matches between your camera, the Marker app, and your editing software.
 
@@ -87,6 +87,30 @@ When another device has a session open for editing, your device shows an edit lo
 ## App Shows "Content Locked"
 
 Some features require a Marker subscription. Visit the app's subscription page to see available plans.
+
+---
+
+## Footage Matching Is Slow or Incomplete (Mac)
+
+If footage matching seems to miss files or takes unusually long on Mac, the Spotlight index may need to be refreshed.
+
+**Step 1:** Open **System Settings > Spotlight** (or **Siri & Spotlight**) and make sure **Movies** is checked.
+
+**Step 2:** If that doesn't help, rebuild the Spotlight index. Open Terminal and run:
+
+```
+sudo mdutil -E /
+```
+
+This resets and rebuilds the Spotlight index for your main drive. You'll be asked for your password. The rebuild can take a few minutes to a few hours depending on how many files are on your drive.
+
+If you want to rebuild the index for a specific external drive:
+
+```
+sudo mdutil -E /Volumes/YourDriveName
+```
+
+After the rebuild completes, try matching your footage again in the Companion App.
 
 ---
 

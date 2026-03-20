@@ -12,7 +12,7 @@ Create a marker preset called "Conference":
 
 | Button | Color | Name | Use |
 |--------|-------|------|-----|
-| 1 | Red | Talk Start | A new presentation or panel begins |
+| 1 | Red | Reel | A moment that works for a social media reel or sizzle reel |
 | 2 | Green | Key Point | Speaker says something quotable or insightful |
 | 3 | Blue | Slide Change | Important slide transition (useful for edit points) |
 | 4 | Yellow | Audience | Q&A moment, applause, audience reaction |
@@ -42,8 +42,9 @@ Conferences are a marathon. You're running cameras for hours. The Apple Watch is
 
 | When | Do |
 |------|----|
-| New speaker takes the stage | Deactivate previous timeline, activate new one. Tap **Talk Start** (Red) + note: "Dr. Smith - AI in Healthcare" |
+| New speaker takes the stage | Deactivate previous timeline, activate new one. Add a note: "Dr. Smith - AI in Healthcare" |
 | Speaker makes a key point | Tap **Key Point** (Green) |
+| Something that works as a social media clip | Tap **Reel** (Red) |
 | Important slide shown | Tap **Slide Change** (Blue) + note if relevant: "Revenue chart 2024" |
 | Audience asks a question | Tap **Audience** (Yellow) |
 | Break starts | Deactivate all timelines (or activate **Networking**) |
@@ -52,7 +53,7 @@ Conferences are a marathon. You're running cameras for hours. The Apple Watch is
 3. Between sessions, review your markers and add notes: "Closing joke - good for reel" or "Technical issues 2 min - skip"
 
 ::: tip
-For talk recordings, **Talk Start** markers with notes containing the speaker name and topic are the most valuable. They turn 8 continuous hours into clearly separated segments.
+For talk recordings, using **timelines per speaker** combined with **Reel markers** for social media-worthy moments gives you the fastest turnaround. Each talk is already isolated, and your best clips are pre-marked for quick content creation without rewatching hours of footage.
 :::
 
 ## After the Conference

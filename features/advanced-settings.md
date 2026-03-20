@@ -36,28 +36,21 @@ When enabled, marker button labels are hidden during recording. The buttons stil
 
 Useful if you want a cleaner recording screen or are filming your screen.
 
-## YouTube Mode
+## Review Mode
 
-Hides sensitive information like your email address from the app interface. Designed for creators who film their screen or show the app in videos and tutorials.
-
-## Allow Screen to Sleep
-
-By default, Marker keeps the screen awake during recording so you can always reach the marker buttons. Enable this setting if you want the screen to sleep normally during long recordings to save battery.
-
-::: tip
-If you're using the Apple Watch for marking, you can let the screen sleep since you're tapping markers from your wrist.
-:::
+Hides sensitive information like your email address from the app interface. Designed for creators who film their screen or show the app in videos, tutorials, and reviews.
 
 ## Legacy Export
 
-Enables direct export of EDL, XML, or OTIO files from the iPhone app - without using the Companion App.
+Legacy Export is the **first-generation Marker workflow** - a manual process where marker files are exported directly from the iPhone app without the Companion App.
 
-When Legacy Export is enabled:
+With Legacy Export enabled:
 - **Timelines are disabled** (the third page of the recording screen is hidden)
-- Sessions export in the native format of your selected editing software
-- Additional settings appear for framerate, resolution, and starting timecode
+- **Settings must be defined before shooting** - framerate, resolution, and format are baked into the export
+- **No automatic footage matching** - you import the marker file manually into your editing software
+- **No one-click import** - the seamless Play button workflow is not available
 
-Legacy Export is available for users who don't want to use the Companion App or need a simpler workflow. However, you lose automatic footage matching, timeline support, and the one-click import that the Companion provides.
+Legacy Export exists for specific edge cases where the Companion App's automatic workflow doesn't cover your setup - for example, workflows involving hardware like the Blackmagic ATEM Mini that already creates its own timeline files. For the vast majority of users, the **Companion App workflow is the recommended approach**.
 
 ### Legacy Settings
 
@@ -66,7 +59,6 @@ When Legacy Export is on, additional settings appear in **Settings > Recording S
 - **Timeline Framerate** - set the export framerate manually
 - **Drop Frame** - toggle drop frame timecode (NTSC framerates only, DaVinci Resolve and Final Cut Pro)
 - **Resolution** - set the sequence resolution (Premiere Pro only)
-- **Export Format** - choose between OTIO or XML (Premiere Pro only)
 - **Starting Timecode** - for Rec Run sessions in DaVinci Resolve: 01:00:00:00 or 00:00:00:00
 
 ---

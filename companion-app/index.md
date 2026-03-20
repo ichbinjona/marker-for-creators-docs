@@ -23,23 +23,21 @@ The **Play button** is the core action. What happens depends on your editing sof
 
 ### DaVinci Resolve
 
-**DaVinci Resolve Studio** - True one-click import. The Companion communicates directly with Resolve's scripting API via a Python bridge. Press Play and your project is created, footage is imported, timelines are built, and markers are placed - all automatically.
+**DaVinci Resolve Studio** - True one-click import. Press Play and your project is created, footage is imported, timelines are built, and markers are placed - all automatically.
 
 You can choose in Settings whether Play creates a **new project** or adds timelines to your **currently open project**.
 
-**DaVinci Resolve Free** - One extra step required. Press Play and the Companion prepares your session data and installs a helper script. Then in Resolve, go to **Workspace > Scripts > Allow Marker Companion Import** to trigger the import. This extra step is needed because the free version of Resolve doesn't allow external scripts to run automatically.
+**DaVinci Resolve Free** - One extra step required. Press Play, then in Resolve go to **Workspace > Scripts > Allow Marker Companion Import** to trigger the import.
 
 ### Premiere Pro
 
-Press Play and the Companion generates an XML project file and opens it in Premiere Pro. Your footage is on the timeline with markers at the correct positions.
+Press Play and your project opens in Premiere Pro. Your footage is on the timeline with markers at the correct positions.
 
 You can choose whether markers appear **on clips** or **on the sequence timeline** in Settings.
 
-Premiere Pro 2026 and later uses the OpenTimelineIO (.otio) format instead of legacy XML.
-
 ### Final Cut Pro
 
-Press Play and the Companion generates an FCPXML bundle and opens it in Final Cut Pro. You can choose between two marker display modes in Settings:
+Press Play and your project opens in Final Cut Pro. You can choose between two marker display modes in Settings:
 
 - **Subtitles** (default) - Markers appear as subtitle/caption text in the viewer, making them visible during playback
 - **Native markers** - Markers appear as standard FCP markers on clips
@@ -48,32 +46,13 @@ Final Cut Pro uses four purple-toned marker styles (Enchanted, Lavender, Midnigh
 
 ## Automatic Footage Matching
 
-The Companion automatically finds your video files on your computer. Here's how:
+The Companion automatically finds your video files on your computer. It works intelligently and gets smarter over time - learning your project structure and prioritizing directories where your footage has been found before.
 
-### Fast Path (runs instantly)
+Make sure your footage is on your computer or your external drives are connected. The Companion handles the rest.
 
-1. **Cache** - If footage was matched before and the files still exist, the previous match is restored immediately
-2. **Custom Footage Folders** - Folders you've configured in Settings are searched first (up to 6 levels deep)
-3. **Learned Directories** - The Companion remembers where your footage has been found before and checks those directories first
+### Custom Footage Folders
 
-### Background Path (runs in parallel)
-
-4. **Spotlight** (Mac) - Searches your entire system using macOS file indexing, filtered by recording date and file type. Also searches cloud folders (Dropbox, Google Drive, OneDrive, iCloud Drive)
-5. **Volume Scan** - Detects connected SD cards and external drives, scanning known camera folder structures (Sony, Canon, Blackmagic, RED, GoPro, DJI, Panasonic, and more)
-
-On Windows, the Companion uses file system scanning instead of Spotlight.
-
-### How Matching Works
-
-The Companion reads each video file's embedded timecode and creation date using ffprobe. It compares these against your session's time range:
-
-- Videos whose timecode range overlaps with your session are matched
-- Videos whose creation date falls within your session period are matched as a fallback
-- Multi-camera shoots are detected automatically when multiple cameras filmed simultaneously
-
-### Supported Video Formats
-
-MP4, MOV, MXF, AVI, MKV, BRAW, R3D, ARI/ARRI, MTS, M2TS, M4V, WebM, TS
+For the fastest matching, add the folders where you typically store your footage in Settings. The Companion always checks these first.
 
 ### Manual Footage Import
 
@@ -81,7 +60,8 @@ If automatic matching doesn't find your files:
 
 - **Drag a folder** onto the sidebar to scan it for videos
 - **Drag video files** directly onto the sidebar
-- The Companion reads metadata and matches them to your sessions
+
+The Companion matches them to your sessions automatically.
 
 ## Editing Markers in the Companion
 
@@ -115,7 +95,7 @@ Each session has configurable settings in the header area:
 
 Each session has a menu with additional options:
 
-- **Share** - Export as `.marker` file, or export a sequence file for any editing software (XML, FCPXML, EDL)
+- **Share** - Export as `.marker` file or as a project file for any editing software
 - **Reset** - Restore the session to its original imported state (only for imported sessions)
 - **Delete** - Remove the session with confirmation
 
@@ -164,7 +144,7 @@ Add custom folders where you store your footage. These are searched first during
 
 - **Suppress session sync** - Stop auto-syncing sessions from your iPhone
 - **Suppress auto-discovery** - Stop automatic footage scanning
-- **Suppress slow discovery** - Only search cache, custom folders, and learned paths (skip Spotlight and volume scans)
+- **Suppress slow discovery** - Only search local folders and previously learned paths
 
 ### Session Cleanup
 

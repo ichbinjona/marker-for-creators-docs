@@ -17,14 +17,6 @@ Create a marker preset called "Podcast":
 | 3 | Blue | Topic | New topic or segment starts here |
 | 4 | Yellow | Reel | This moment works for a social media clip |
 
-### Set Up Your Timelines
-
-Add these timeline presets:
-
-- **Full Episode** - Keep this active the entire time. This is your main edit.
-- **Highlights** - Activate when something reel-worthy happens.
-- **Shorts** - Activate when a moment works as a standalone clip.
-
 ### Set Up Your Camera
 
 Both cameras should be on **Time of Day** timecode. Verify the clock on each camera matches your phone.
@@ -43,7 +35,6 @@ Both cameras should be on **Time of Day** timecode. Verify the clock on each cam
 | Technical issue, long pause, "let me start over" | **Cut** (Red) |
 
 4. Use **note-to-next-marker** for topic labels: Type "Guest: origin story" in the Note Bar, tap →, then tap Topic when the segment begins.
-5. Switch timelines: Activate **Highlights** during great segments. Activate **Shorts** when a self-contained moment happens. Switch back to just **Full Episode** during normal conversation.
 
 ::: tip
 Most podcast shoots generate 10-30 markers per hour. You don't need to mark everything - just the moments that matter.
@@ -56,7 +47,6 @@ Most podcast shoots generate 10-30 markers per hour. You don't need to mark ever
 3. Click **Play** - your editing software opens with:
    - All camera angles on the timeline
    - Markers at every point you marked
-   - Separate sequences for Full Episode, Highlights, and Shorts
 
 ## In the Edit
 
@@ -66,7 +56,7 @@ Your editor opens the project and immediately knows:
 - Blue markers = segment boundaries
 - Yellow markers = social media clips
 
-For the full episode, they work through the Timeline with the Topic markers as chapter boundaries. For the highlights reel, they open the Highlights timeline - only the best moments are there, already separated. For social media, the Shorts timeline has self-contained clips ready to trim and post.
+For the full episode, they work through the timeline with the Topic markers as chapter boundaries. For social media, they jump to each Yellow (Reel) marker and extract standalone clips.
 
 ## Time Saved
 

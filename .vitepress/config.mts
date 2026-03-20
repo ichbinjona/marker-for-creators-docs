@@ -27,6 +27,7 @@ export default defineConfig({
       { text: 'Features', link: '/features/marker-types-and-presets' },
       { text: 'Companion App', link: '/companion-app/' },
       { text: 'Examples', link: '/example-workflows/' },
+      { text: 'Changelog', link: '/changelog/' },
     ],
 
     // Sidebar
@@ -36,13 +37,13 @@ export default defineConfig({
         items: [
           { text: 'Home', link: '/' },
           { text: 'Quick Start', link: '/getting-started/quick-start' },
-          { text: 'Setup Guide', link: '/getting-started/setup' },
         ]
       },
       {
         text: 'The Marker Workflow',
         items: [
           { text: 'Overview', link: '/workflow/' },
+          { text: 'Setup', link: '/getting-started/setup' },
           { text: 'Recording & Marking', link: '/workflow/recording-and-marking' },
           { text: 'Importing Your Session', link: '/workflow/importing' },
         ]
@@ -83,6 +84,12 @@ export default defineConfig({
         text: 'Troubleshooting',
         items: [
           { text: 'Common Issues', link: '/troubleshooting/' },
+        ]
+      },
+      {
+        text: 'Changelog',
+        items: [
+          { text: 'What\'s New', link: '/changelog/' },
         ]
       },
     ],

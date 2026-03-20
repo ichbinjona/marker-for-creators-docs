@@ -1,8 +1,10 @@
 # Sports Videography Workflow
 
-The goalkeeper makes a save. The crowd erupts. You can't pause and rewind - the next play is already happening. In sports, you either mark the moment when it happens or you spend hours finding it later.
+The goalkeeper makes a save. The crowd erupts. A striker scores from 30 meters. In sports, the action never waits.
 
-And in sports, turnaround time is everything. The highlight reel is due tonight.
+But it's not just the game that moves fast - the content needs to go out fast too. Fans expect highlights during the match, sponsors want same-day recap videos, and social media doesn't wait until tomorrow.
+
+With Marker, you can jump straight to every key moment the second the game ends. Even as a one-person crew, you can produce and publish highlight reels during or right after the event.
 
 ## Before the Event
 
@@ -25,11 +27,11 @@ Set your camera to **Time of Day** timecode. If you're using multiple cameras (w
 
 ### Set Up Your Timelines
 
-If you're covering a longer event:
+Switch to **Tagger Mode** in Settings > Advanced > Timeline Mode. Create a timeline called **Best Of**.
 
-- **Full Game** - Everything
-- **First Half / Second Half** - Split the coverage
-- **Best Of** - Only the absolute highlights
+During the event, whenever you finish recording a clip you know belongs in the highlight reel, tap the **Best Of** timeline in Tagger Mode. That clip gets tagged instantly. At the end of the event, your Best Of timeline contains only the clips that matter - you just trim them and your highlight reel is done in minutes.
+
+→ [Learn more about Tagger Mode](/features/timelines-and-clips)
 
 ## During the Event
 

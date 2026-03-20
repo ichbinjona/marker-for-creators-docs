@@ -50,14 +50,19 @@ Marker reminds you to check your camera's timecode before your first shoot of th
 
 ## Setting Up Apple Watch (Optional)
 
-If you have an Apple Watch, you can set markers directly from your wrist:
-
-1. Open the **Watch** app on your iPhone.
-2. Scroll down and install **Marker for Creators**.
-3. Set **Return to Clock** to Custom, then set it to **1 hour**.
-4. Enable **Always On Display** so you can see your markers at a glance.
+Install **Marker for Creators** on your Apple Watch via the Watch app on your iPhone. Once a session is running on your iPhone, your Watch shows the same four marker buttons - perfect for marking without reaching for your phone.
 
 → [Learn more about the Apple Watch feature](/features/apple-watch)
+
+## Import Your Session
+
+1. Open the **Companion App** on your Mac or PC
+2. Sign in with the same Marker account
+3. Make sure your footage is on your computer (or your external drives are connected)
+4. Select your session and press **Play**
+5. Your editing software opens with all markers and footage in place
+
+→ [Learn more about the Companion App](/companion-app/)
 
 ## Next Steps
 

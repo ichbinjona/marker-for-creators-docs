@@ -68,6 +68,16 @@ As your project spans weeks or months:
 - Marker notes from every session are visible in the session panel
 - Convert between editing softwares if your project moves from one to another
 
+### Merging Sessions
+
+In the Companion App, you can **merge multiple sessions** into one. This is especially powerful for documentaries: if you use the same timeline presets across shoot days (e.g., "Interview", "B-Roll", "Wide Establishing"), merging combines all clips from matching timelines into a single unified timeline.
+
+This means you can shoot across 10 days over a period of months, merge all sessions, and have one coherent project with all your footage organized into the timelines you defined.
+
+::: info
+In a future update, Marker will include a native **Project Mode** that makes multi-day shoots even easier to manage.
+:::
+
 ## In the Edit
 
 Your editor opens the Companion and has a bird's-eye view of the entire production:
