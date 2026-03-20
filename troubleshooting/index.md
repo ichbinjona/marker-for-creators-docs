@@ -1,5 +1,25 @@
 # Troubleshooting
 
+## Companion App Keeps Linking Footage from My SD Card
+
+**When you plug in your SD card, the Companion automatically finds the footage there — but that's not where you actually want to work from.**
+
+This is normal. The Companion matches your footage as soon as it becomes available, and since your SD card is connected, it picks that up first. If you haven't copied the files to your project drive yet, the SD card is the only source it knows about.
+
+**Fix:**
+
+1. Copy your footage to your actual project drive (e.g., your external SSD where you keep your editing projects)
+2. Drag that footage folder onto the session in the Companion sidebar
+3. A **second source** will appear — you can now switch between the SD card and your project drive when opening the session
+4. **Start your session from the preferred source.** The Companion remembers which source you use and will prioritize it in the future
+
+**Prevent it from happening:**
+
+- In **Settings**, set a **Footage Folder** that points to your main project storage. The Companion will always search there first.
+- In **Advanced Settings**, add your SD card to the **Exclude** list. This stops the Companion from ever auto-matching footage on that drive.
+
+---
+
 ## Markers Are Misaligned with Footage
 
 **Your camera's timecode doesn't match your phone's clock.**
