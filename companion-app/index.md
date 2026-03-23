@@ -151,6 +151,10 @@ Add custom folders where you store your footage. These are searched first during
 - **Auto-cleanup period** - Automatically remove old sessions after 30 days, 90 days, 180 days, or 1 year
 - **Delete empty sessions** - Remove sessions that never had footage matched
 
+### Legacy Mode
+
+If you want to use the old app behaviour without the Companion App and without, in the iOS App go to **Advanced** and enable **Legacy Export**. This disables features like timelines, auto matching footage, auto creating projects and more.
+
 ---
 
 **Next:** [Example Workflows](/example-workflows/)
